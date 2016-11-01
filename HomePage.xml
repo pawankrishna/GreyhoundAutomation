@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page name="PageName" title="HomePage">
+
+	<Element name="MenuRoadsAndRewards" locator="xpath">//a[text()[contains(.,'Road rewards')]]</Element>
+	
+	
+	<Element name="TitleRoadsAndRewards" locator="xpath">//h1[text()='Road Rewards']</Element>
+	<Element name="BtnSignup" locator="xpath">//a[text()='Sign Up']</Element>
+	<Element name="TitleSignupRoadsandRewards" locator="xpath">//header[@class='header-intro']//h1</Element>
+	<Element name="LinkTermsConditions" locator="xpath">//div[@id='termsColumn']//a</Element>
+	<Element name="TitleTermsandConditions" locator="xpath">//header[contains(@class,'header-intro')]//h1</Element>
+	
+	
+	<Element name="TextFirstName" locator="id">yourfirstName</Element>
+	<Element name="TextLastName" locator="id">yourlastName</Element>
+	<Element name="TextDateOfBirth" locator="id">dateOfBirth</Element>
+	<Element name="TextYourAddress" locator="id">youraddress</Element>
+	
+	<Element name="TextYourAddress2" locator="id">youraddress2</Element>
+	<Element name="TextYourCity" locator="id">yourcity</Element>
+	<Element name="TextYourState" locator="id">yourstate</Element>
+	<Element name="TextYourZipCode" locator="id">yourzipcode</Element>
+	
+	<Element name="TextYourPhone" locator="id">yourphone</Element>
+	<Element name="TextYourCity" locator="id">yourcity</Element>
+	<Element name="TextYourState" locator="id">yourstate</Element>
+	<Element name="TextYourZipCode" locator="id">yourzipcode</Element>
+	
+	<Element name="TextYourEmail" locator="id">youremail</Element>
+	<Element name="TextYourPassword" locator="id">yourpassword</Element>
+	<Element name="TextConfirmYourPassword" locator="id">confirmyourpassword</Element>
+	
+	<Element name="TextVacation" locator="id">vacation</Element>
+	<Element name="TextFriends" locator="id">friends</Element>
+	<Element name="TextFiveFifteen" locator="id">fivefifteen</Element>
+	<Element name="TextTermsAndCondition" locator="id">termsAndConditions</Element>
+	<Element name="BtnSignup" locator="xpath">//button[text()='Sign Up']</Element>
+	
+	
+	
+	
+	<!-- <Element name="Button_Search" locator="xpath">//span[text()='Search']</Element>
+	<Element name="Image_Collapse" locator="xpath">//div[text()='Favorite Documents']/ancestor::div[2]/div[2]/img</Element>
+	<Element name="Label_Favourites" locator="id">messageLabel</Element>
+	<Element name="Image_Collapse_Subscribe" locator="xpath">//div[text()='Subscribed']/ancestor::div[2]/div[2]/img</Element>
+	<Element name="Link_Mail" locator="xpath">//a[@data-qtip='E-mail']/span[1]/span[1]/span[1]</Element>
+	<Element name="Textbox_MailTo" locator="name">to</Element>
+	<Element name="Button_Send" locator="xpath">//span[text()='Send']</Element>
+	<Element name="Label_mail" locator="id">messageLabel</Element>
+	<Element name="Link_Header" locator="id">Header</Element>
+	<Element name="Link_DocumentationCriteria" locator="id">DocumentationCriteria</Element>
+	<Element name="Link_Back" locator="xpath">//a[@data-qtip='Add to Favorites']/ancestor::div[1]/a[1]</Element>
+	<Element name="Link_ReferenceMaterial" locator="id">ReferenceMaterial</Element>
+	<Element name="Frame_DocumentPreview" locator="xpath">/html/body/div[4]/div/div/div[2]/div[3]/div/div/div/div/div[2]/div/div/iframe</Element>
+	<Element name="Link_AddFavourite" locator="xpath">//a[@data-qtip='Add to Favorites']/span[1]/span[1]/span[1]</Element>
+	<Element name="Link_RemoveFavourite" locator="xpath">//a[@data-qtip='Remove from Favorites']/span[1]/span[1]/span[1]</Element>
+	<Element name="Link_Subscribe" locator="xpath">//a[@data-qtip='Subscribe to this Document']/span[1]/span[1]/span[1]</Element>
+	<Element name="Link_UnSubscribe" locator="xpath">//a[@data-qtip='Unsubscribe from this Document']/span[1]/span[1]/span[1]</Element>
+	<Element name="Label_DocumentInformation" locator="xpath">//div[@class='app_body2']/h1[1]</Element>
+	<Element name="Label_ReferenceMaterial" locator="xpath">//a[@name='ReferenceMaterial']/preceding-sibling::span[1]</Element>
+	<Element name="Label_DocumentCriteria" locator="xpath">//div[@class='header']/h1[1]</Element>
+	<Element name="Link_ContactUS" locator="xpath">//a[@data-qtip='Contact Us']/span[1]/span[1]/span[1]</Element>
+	<Element name="Textbox_Subject" locator="name">subject</Element>
+	<Element name="Frame_ContactUS" locator="xpath">//iframe[@data-ref='iframeEl']</Element>
+	<Element name="Button_Send" locator="xpath">//span[text()='Send']</Element>
+	<Element name="Link_Help" locator="xpath">//a[@data-qtip='Contact Us']/following-sibling::a[1]/span[1]/span[1]/span[1]</Element>
+	<Element name="Frame_Help" locator="xpath">//div[@id='helpId']/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/iframe</Element>
+	<Element name="Link_CPG" locator="xpath">//a[text()='Collaborative Practice Guidelines Policy']</Element>
+	<Element name="Frame_CPG" locator="xpath">//div[@id='tabPanelCkr']/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/iframe</Element>
+	<Element name="Label_CPGPolicyText" locator="xpath">//div[@id='glossaryContent']/following-sibling::h1</Element>
+	<Element name="Link_CPGBack" locator="xpath">//div[@id='tabPanelCkr']/div[2]/div[1]//a[@data-qtip='Click to go Back']</Element>
+	<Element name="Link_DocumentDetails" locator="xpath">//a[@id='doc_details']</Element> -->
+	<Element name="" locator=""></Element>
+					
+		
+	
+</page>

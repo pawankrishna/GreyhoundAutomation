@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<page name="PageName" title="RoadsandRewards">
+
+	<Element name="MenuRoadsAndRewards" locator="xpath">//a[text()[contains(.,'Road rewards')]]</Element>
+	<Element name="TitleRoadsAndRewards" locator="xpath">//h1[text()='Road Rewards']</Element>
+	<Element name="BtnSignup" locator="xpath">//a[text()='Sign Up']</Element>
+	<Element name="TitleSignupToRoadRewards" locator="xpath">//header[@class='header-intro']//h1</Element>
+	
+	
+</page>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page name="PageName" title="HomePage">
+
+    <Element name="TitleBookATrip" locator="xpath">//h2[text()='Book a trip']</Element>
+    <Element name="MenuBookATrip" locator="xpath">//a[text()[contains(.,'Book a Trip')]]</Element>
+    
+    <Element name="TextFromLocation" locator="id">fromLocation</Element>
+    <Element name="TextFromLocation" locator="id">fromLocation</Element>
+    <Element name="TextToLocation" locator="id">toLocation</Element>
+    
+    <Element name="CalenDepartOn" locator="id">datepicker-from</Element>
+    <Element name="CalenAddReturnTrip" locator="id">datepicker-to</Element>
+    
+    <Element name="DDLTotalPassengers" locator="id">totalPassengers</Element>
+    
+    <Element name="BtnSearch" locator="id">fare-search-btn</Element>
+    <Element name="TitleOutgoingTrip" locator="xpath">//div[@id='outgoing-calendar-header']/h1</Element>
+    
+    <Element name="RoadRewardsUserId" locator="id">username</Element>
+    <Element name="RoadRewardsPassword" locator="id">password</Element>
+    
+    <Element name="TitleChooseOutgoingFrom" locator="xpath">//div[@class='sb-locations']//h3[text()='Choose outgoing from']/following-sibling::p</Element>
+    <Element name="TitleChooseReturnFrom" locator="xpath">//div[@class='sb-locations']//h3[text()='Choose return from']/following-sibling::p</Element>
+    
+    <Element name="BtnEditYourTrip" locator="xpath">//p[text()[contains(.,'Edit your trip')]]</Element>
+    
+    <Element name="BtnEditReportUpdateSearchButton" locator="id">update-search-btn</Element>
+    
+    <Element name="TitleInGridForFromLocation" locator="xpath">//div[@id='outgoing-trip']//th[@class='th-fromto']/span[1]</Element>
+    <Element name="TitleInGridForToLocation" locator="xpath">//div[@id='outgoing-trip']//th[@class='th-fromto']/span[3]</Element>
+    
+    <Element name="TitleLastBitDetails" locator="xpath">//main[@id='main']//h1[contains(text(),'Last bit')]</Element>
+    
+     <Element name="ChbTravelOnWheelChair" locator="xpath">//label[@class='travelonwchair']/span[1]</Element>
+     
+     <Element name="BtnAdultNumber" locator="xpath">//input[@id='adult-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+     
+     <Element name="BtnChildrenNumber" locator="xpath">//input[@id='children-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+     <Element name="BtnChildrenWheelNumber" locator="xpath">//input[@id='children-wheel-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+     
+     <Element name="BtnSeniorNumber" locator="xpath">//input[@id='senior-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+     
+     <Element name="BtnAdultWheelNumber" locator="xpath">//input[@id='adult-wheel-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+    
+     <Element name="BtnAdultWheelNumber" locator="xpath">//input[@id='adult-wheel-num']/following-sibling::button[@class='btn-ctrl plus']</Element>
+    
+     <Element name="TxtCardHolderFirstName" locator="id">cardHolderFirstName</Element>
+     <Element name="TxtCardHolderLastName" locator="id">cardHolderLastName</Element>
+     
+     <Element name="TxtcardNumber" locator="id">cardNumber</Element>
+     <Element name="TxtCardCCV" locator="id">cardCCV</Element>
+     <Element name="TxtCardExp" locator="id">cardEXP</Element>
+     
+     <Element name="RadioBtnPrintYourBtnAtHome" locator="xpath">//input[@id='ticket-type-print']/following-sibling::ins</Element>
+     
+     
+    
+        
+</page>
