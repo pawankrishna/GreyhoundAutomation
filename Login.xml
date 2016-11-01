@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page name="PageName" title="Login">
+
+	<Element name="Textbox_UserName" locator="id">username</Element>
+	<Element name="Textbox_Password" locator="id">password</Element>
+	<Element name="Button_Sign In" locator="xpath">//form[@id='ff-rr-login']/fieldset/p/input[@value = 'Sign In']</Element>
+	<Element name="" locator=""></Element>
+	<Element name="" locator=""></Element>
+	<Element name="" locator=""></Element>
+	<!-- <Element name="Button_LogIn" locator="id">submit</Element> -->
+
+</page>
